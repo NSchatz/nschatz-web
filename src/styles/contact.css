@@ -1,0 +1,36 @@
+.contact{
+
+}
+input, textarea{
+    color: white;
+}
+.contact-form{
+    width: 30rem;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.contact-name, .contact-email{
+    background-color: rgb(39, 39, 39,.9);
+    border: none;
+    margin: .4rem 0;
+    padding: 1rem;
+    font-family: monserrat, sans-serif;
+    outline: none;
+}
+.contact-message{
+    background-color: rgb(39, 39, 39,.9);
+    resize: none;
+    border: none;
+    height: 5rem;
+    padding: 1rem;
+    margin: .4rem 0;
+    font-family: monserrat, sans-serif;
+    outline: none;
+}
+
+@media (max-width: 550px){
+    .contact-form{
+        width: 90%;
+    }
+}

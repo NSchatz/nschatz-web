@@ -1,0 +1,128 @@
+#container{
+    position: relative;
+}
+#tsparticles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 0; /* if you use -1 you have to set to `"window"` the interactivity.detectsOn property */
+}
+.landing{
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+.landing h1{
+    font-size: 6rem;
+    font-weight: 100;
+}
+#color{
+    color: rgb(0, 252, 143);
+}
+#landing-text{
+    margin-bottom: 2rem;
+}
+#viewwork{
+    position: relative;
+    text-decoration: none;
+    margin: 20px;
+    
+    padding: 10px 20px;;
+    border: none;
+    color: rgb(0, 252, 143);
+    font-size: 2rem;
+    font-weight: 200;
+    transform: all 0.3s;
+}
+#viewwork:before{
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    width: 24px;
+    top: -5px;
+    left: -5px;
+    border-top: 2px solid rgb(0,252,143);
+    border-left: 2px solid rgb(0,252,143);
+    transition: all 0.25s;
+}
+#viewwork:hover:before, #viewwork:hover:after{
+    width: 103.5%;
+    height: 112%;
+}
+#viewwork:after{
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    width: 24px;
+    bottom: -5px;
+    right: -5px;
+    border-bottom: 2px solid rgb(0,252,143);
+    border-right: 2px solid rgb(0,252,143);
+    transition: all 0.25s;
+}
+
+
+@media (max-width: 1500px) {
+    .landing h1{
+        font-size: 5.5rem;
+    }
+    #viewwork{
+        font-size: 1.8rem;
+       
+    }
+}
+  
+@media (max-width: 1200px) {
+    .landing h1{
+        font-size: 4.5rem;
+    }
+    #viewwork{
+        font-size: 1.6rem;
+        /* border: 3px solid rgb(0, 252, 143); */
+    }
+}
+
+@media (max-width: 770px) {
+    .landing h1{
+        font-size: 3.0rem;
+    }
+    #viewwork{
+        font-size: 1.4rem;
+        /* border: 2px solid rgb(0, 252, 143); */
+    }
+}
+
+@media (max-width: 615px) {
+    .landing h1{
+        font-size: 3.0rem;
+    }
+    #viewwork{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .landing h1{
+        font-size: 2.5rem;
+    }
+    #viewwork{
+        font-size: 1.0rem;
+    }
+}
+
+
