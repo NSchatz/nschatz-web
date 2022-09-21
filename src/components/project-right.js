@@ -7,7 +7,7 @@ export default function ProjectRight(props){
             <div className='project-info-right'>
                     <h3 className='project-title'>{props.title}</h3>
                     <p className='project-description'>{props.description}</p>
-                    <Link name='LEARN MORE'/>
+                    <Link name='LEARN MORE' link={props.learnLink}/>
                     
             </div>
             <a href='' target='_blank'>

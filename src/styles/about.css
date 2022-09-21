@@ -1,9 +1,9 @@
 .about{
     color: white;
 }
-#scrollAbout{
-    scroll-margin-top: 70px;
-}
+/* #scrollAbout{
+    scroll-margin-top: 5rem;
+} */
 #self{
     border-radius: 50%;
     height: 300px;

@@ -20,13 +20,14 @@
     justify-content: center;
     text-align: center;
     padding: 14px 16px;
+    width: 121px;
 }
 
 .nav ul{
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 

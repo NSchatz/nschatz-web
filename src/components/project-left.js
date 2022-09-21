@@ -15,8 +15,8 @@ export default function ProjectLeft(props){
             <div className='project-info-left'>
                     <h3 className='project-title'>{props.title}</h3>
                     <p className='project-description'>{props.description}</p>
-                    <Link name='LIVE APP'/>
-                    <Link name='LEARN MORE'/>
+                    <Link name='LIVE APP' link={props.liveLink}/>
+                    <Link name='LEARN MORE' link={props.learnLink}/>
             </div>
         </section>
     )
