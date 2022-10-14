@@ -10,7 +10,7 @@ export default function About(){
                 <FadeIn name='left'>
                     <div className="aboutself">
                         <img id="self" src={self} alt="" /><br />
-                        <p id="about">Fully committed to the philosophy of life-long learning, I’m a full stack developer with a deep passion for JavaScript, React and all things web development. The unique combination of creativity, logic, technology and never running out of new things to discover, drives my excitement and passion for web development. When I’m not at my computer I like to spend my time working on cars, rock climbing and staying healthy.</p>
+                        <p id="about">Fully committed to the philosophy of life-long learning, I’m a developer with a passion for Python, Javascript and all things web development. The unique combination of creativity, logic, technology and never running out of new things to discover, drives my excitement and passion for web development. When I’m not at my computer I like to spend my time working on cars, rock climbing and staying healthy.</p>
                     </div>
                 </FadeIn>
                 <FadeIn name='right'>
